@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
 	<title>DMO - Checklist diária</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="shortcut icon" href="https://wikimon.net/images/e/ee/Shinegreymon_re.png">
@@ -20,9 +20,11 @@
 
 		<br>
 		<hr>
-		<br>
 
 		<div class="centro"> <center>
+
+			<button onclick="clearAndRedirect('file:///C:/Users/Rafael/Desktop/dmo-checklist/index.html')">Limpar Seleções</button>
+			<br>
 
 			<div class="tab">
 				<button class="tablinks" onclick="openTab(event, 'diarias')" id="defaultOpen">Missões Diárias</button>
@@ -50,7 +52,7 @@
 
      			<br>
 
-     			<div class="check-title" style="text-align:justify">Deserto do continente servidor <a href="https://dmowiki.com/Server_Continent_Desert" target="_blank" style="font-size:18px">(Link na Wiki)</a>
+     			<div class="check-title" style="text-align:justify">Deserto do Continente <a href="https://dmowiki.com/Server_Continent_Desert" target="_blank" style="font-size:16px">(Link na Wiki)</a>
 				</div>
 				<div class="checks" style="text-align:justify">
 					<input type="checkbox" id="moeda1" name="moeda1">
@@ -66,14 +68,14 @@
 
 	     		<br>
 
-	     		<div class="check-title" style="text-align:justify">Entrada do labirinto digimon <a href="https://dmowiki.com/Digimon_Maze_Entrance" target="_blank" style="font-size:18px">(Link na Wiki)</a>
+	     		<div class="check-title" style="text-align:justify">Labirinto Digimon <a href="https://dmowiki.com/Digimon_Maze_Entrance" target="_blank" style="font-size:18px">(Link na Wiki)</a>
 				</div>
 				<div class="checks" style="text-align:justify">
 					<input type="checkbox" id="pedra" name="pedra">
 	     			<label for="scales"><img src="https://wikimon.net/images/c/c4/Starmon_dot.png" width="32" height="32"> Pedra da Invocação</label>
 	     			<br>
 					<input type="checkbox" id="chave" name="chave">
-	     			<label for="scales"><img src="https://wikimon.net/images/3/35/Anubimon_vpet_penz.gif" width="32" height="32"> Chave de Entrada do Labirinto</label>
+	     			<label for="scales"><img src="https://wikimon.net/images/3/35/Anubimon_vpet_penz.gif" width="32" height="32"> Entrada do Labirinto</label>
 	     			<br>
 	     		</div>
 
@@ -112,10 +114,10 @@
 				</div>
 				<div class="checks" style="text-align:justify">
 					<input type="checkbox" id="idg" name="idg">
-	     			<label for="scales"><img src="https://wikimon.net/images/f/fa/Elecmon_dot.png" width="32" height="32"> IDG (Fenda de Devimon Normal)</label>
+	     			<label for="scales"><img src="https://wikimon.net/images/f/fa/Elecmon_dot.png" width="32" height="32"> IDG (Devimon Normal)</label>
 	     			<br>
 					<input type="checkbox" id="idgh" name="idgh">
-	     			<label for="scales"><img src="https://wikimon.net/images/f/fa/Elecmon_dot.png" width="32" height="32"> IDGH(Fenda de Devimon Difícil)</label>
+	     			<label for="scales"><img src="https://wikimon.net/images/f/fa/Elecmon_dot.png" width="32" height="32"> IDGH(Devimon Difícil)</label>
      			</div>
 
      			<br>
@@ -129,11 +131,11 @@
 
      			<br>
 
-     			<div class="check-title" style="text-align:justify">Telhado da TV FUji<a href="https://dmowiki.com/Fuji_TV_Rooftop" target="_blank" style="font-size:18px">(Link na Wiki)</a>
+     			<div class="check-title" style="text-align:justify">Telhado da TV Fuji<a href="https://dmowiki.com/Fuji_TV_Rooftop" target="_blank" style="font-size:18px">(Link na Wiki)</a>
 				</div>
 				<div class="checks" style="text-align:justify">
 					<input type="checkbox" id="fuji" name="fuji">
-	     			<label for="scales"><img src="https://wikimon.net/images/8/85/Angewomon_re.png" width="32" height="32"> Telhado da TV Fuji (Miyotis) </label>
+	     			<label for="scales"><img src="https://wikimon.net/images/8/85/Angewomon_re.png" width="32" height="32"> Telhado da TV Fuji (Miyo) </label>
      			</div>
 
 			</div>
@@ -170,7 +172,7 @@
 				</div>
 				<div class="checks" style="text-align:justify">
 					<input type="checkbox" id="ox1" name="ox1">
-	     			<label for="scales"><img src="https://dmowiki.com/images/d/d7/Energy_of_Steel.png" width="32" height="32"> Voucher Anti-Heterogênica</label>
+	     			<label for="scales"><img src="https://dmowiki.com/images/d/d7/Energy_of_Steel.png" width="32" height="32"> Anti-Heterogênica</label>
 	     			<br>
 	     			<input type="checkbox" id="ox2" name="ox2">
 	     			<label for="scales"><img src="https://dmowiki.com/images/4/4b/X-Evolution_Disk.png" width="32" height="32"> Disco de Evolução X</label>
@@ -203,17 +205,17 @@
      			<div class="checks" style="text-align:justify">
      				<a style="font-size:20px">Data de Encerramento: 28 de Dezembro de 2022<br></a>
 					<input type="checkbox" id="peng1" name="peng1">
-	     			<label for="scales"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/facebook/327/penguin_1f427.png" width="32" height="32"> Missão do Pinguim do Dats</label>
+	     			<label for="scales"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/facebook/327/penguin_1f427.png" width="32" height="32"> Pinguim do Dats</label>
 	     			<br>
      			</div>
      			<div class="checks" style="text-align:justify">
 					<input type="checkbox" id="peng2" name="peng2">
-	     			<label for="scales"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/facebook/327/penguin_1f427.png" width="32" height="32"> Missão do Pinguim de Vila do Começo</label>
+	     			<label for="scales"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/facebook/327/penguin_1f427.png" width="32" height="32"> Pinguim de Vila do Começo</label>
 	     			<br>
      			</div>
      			<div class="checks" style="text-align:justify">
 					<input type="checkbox" id="peng3" name="peng3">
-	     			<label for="scales"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/facebook/327/penguin_1f427.png" width="32" height="32"> Missão do Pinguim da Vila de Neve</label>
+	     			<label for="scales"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/facebook/327/penguin_1f427.png" width="32" height="32"> Pinguim da Vila de Neve</label>
 	     			<br>
      			</div>
 
@@ -238,9 +240,11 @@
 
 	<div class="changelog" style="margin-left:12px">
 		<justify>
+			<a style="color:#dc6601"> 24/12/2022</a> -  Versão 0.1.110: Adicionado botão para limpar seleções; Correção de texto.
+			<br>
 			<a style="color:#dc6601"> 24/12/2022</a> -  Versão 0.1.100: Publicado e aberto para sugestões da comunidade.
 			<br>
-			<a style="color:#dc6601"> 24/12/2022</a> -  Versão 0.1.000: Conceito base criado. Abas para Missões Diárias, Entradas de DG, Outros e Evento.
+			<a style="color:#dc6601"> 24/12/2022</a> -  Versão 0.1.000: Conceito base criado; Abas para Missões Diárias, Entradas de DG, Outros e Evento.
 		</justify>
 	</div>
 
