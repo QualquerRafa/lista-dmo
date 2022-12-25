@@ -10,238 +10,235 @@
 </head>
 
 <body>
-	<div class="to-do">
-		<div class="header">
-			<center><h1> DMO - Checklist Diária </h1></center>
-		</div>
-		<div class="descritivo" style="text-align:center">
-			<p>Uma lista de coisas que todo jogador pode fazer diariamente para aproveitar ao máximo o potencial da sua conta.
-		</div>
-
-		<br>
-		<hr>
-		<br>
-
-		<div class="centro"> <center>
-
-			<div class="tab">
-				<button class="tablinks" onclick="openTab(event, 'diarias')" id="defaultOpen">Missões Diárias</button>
-				<button class="tablinks" onclick="openTab(event, 'dg')">Entradas de DG</button>
-				<button class="tablinks" onclick="openTab(event, 'outros')">Outros</button>
-				<button class="tablinks" onclick="openTab(event, 'evento')">Evento</button>
-			</div>
-
-			<!-- MISSÕES DIARIAS -->
-			<div id="diarias" class="tabcontent">
-				<h3>Missões Diárias</h3>
-
-				<div class="check-title" style="text-align:justify">Lago Silver <a href="https://dmowiki.com/Silver_Lake" target="_blank" style="font-size:18px">(Link na Wiki)</a>
-				</div>
-				<div class="checks" style="text-align:justify">
-					<input type="checkbox" id="aura1" name="aura1">
-	     			<label for="scales"><img src="images/digi/pata.png" width="32" height="32"> Digiaura (1 Dia)</label>
-	     			<br>
-					<input type="checkbox" id="aura2" name="aura2">
-	     			<label for="scales"><img src="images/digi/gabu.png" width="32" height="32"> Digiaura (1 Dia)</label>
-	     			<br>
-					<input type="checkbox" id="kuwaga" name="kuwaga">
-	     			<label for="scales"><img src="images/digi/cherry.png" width="32" height="32"> DigiOvo de Mercenário Alpha</label>
-     			</div>
-
-     			<br>
-
-     			<div class="check-title" style="text-align:justify">Ilha Arquivo a Beira-mar <a href="https://dmowiki.com/File_Island_Waterfront" target="_blank" style="font-size:18px">(Link na Wiki)</a>
-				</div>
-				<div class="checks" style="text-align:justify">
-					<input type="checkbox" id="aura1" name="aura1">
-	     			<label for="scales"><img src="images/digi/mono.png" width="32" height="32"> Mono-Trio (100 M)</label>
-     			</div>
-
-     			<br>
-
-     			<div class="check-title" style="text-align:justify">Deserto do Continente <a href="https://dmowiki.com/Server_Continent_Desert" target="_blank" style="font-size:16px">(Link na Wiki)</a>
-				</div>
-				<div class="checks" style="text-align:justify">
-					<input type="checkbox" id="moeda1" name="moeda1">
-	     			<label for="scales"><img src="images/digi/ete.png" width="32" height="32"> Moeda do Deserto x1</label>
-	     			<br>
-					<input type="checkbox" id="moeda2" name="moeda2">
-	     			<label for="scales"><img src="images/digi/ete.png" width="32" height="32"> Moeda do Deserto x1</label>
-	     			<br>
-	     			<input type="checkbox" id="moeda3" name="moeda3">
-	     			<label for="scales"><img src="images/digi/skull.png" width="32" height="32"> Moeda do Deserto x1</label>
-	     			<br>
-	     		</div>
-
-	     		<br>
-
-	     		<div class="check-title" style="text-align:justify">Labirinto Digimon <a href="https://dmowiki.com/Digimon_Maze_Entrance" target="_blank" style="font-size:18px">(Link na Wiki)</a>
-				</div>
-				<div class="checks" style="text-align:justify">
-					<input type="checkbox" id="pedra" name="pedra">
-	     			<label for="scales"><img src="images/digi/star.png" width="32" height="32"> Pedra da Invocação</label>
-	     			<br>
-					<input type="checkbox" id="chave" name="chave">
-	     			<label for="scales"><img src="images/digi/anubi.png" width="32" height="32"> Entrada do Labirinto</label>
-	     			<br>
-	     		</div>
-
-			</div>
-
-			<!-- ENTRADAS DE DG -->
-			<div id="dg" class="tabcontent">
-				<h3>Entradas de DG</h3>
-
-				<div class="check-title" style="text-align:justify">D-Terminal <a href="https://dmowiki.com/D-Terminal" target="_blank" style="font-size:18px">(Link na Wiki)</a>
-				</div>
-				<div class="checks" style="text-align:justify">
-					<input type="checkbox" id="xuwan" name="Xuwan">
-	     			<label for="scales"><img src="images/digi/rena.png" width="32" height="32"> EDG(Ebonwumon)</label>
-	     			<br>
-					<input type="checkbox" id="zuqia" name="Zuqia">
-	     			<label for="scales"><img src="images/digi/rena.png" width="32" height="32"> ZDG(Zuqhiaomon)</label>
-	     			<br>
-	     			<input type="checkbox" id="baihu" name="Baihu">
-	     			<label for="scales"><img src="images/digi/rena.png" width="32" height="32"> BDG(Baihumon)</label>
-	     			<br>
-	     			<input type="checkbox" id="qing" name="Qing">
-	     			<label for="scales"><img src="images/digi/rena.png" width="32" height="32"> QGD(Qinglongmon)</label>
-	     			<br>
-	     			<input type="checkbox" id="fang" name="Fang">
-	     			<label for="scales"><img src="images/digi/rena.png" width="32" height="32"> FDQ(Fanglongmon)</label>
-	     			<br>
-	     			<input type="checkbox" id="green" name="green">
-	     			<label for="scales"><img src="images/digi/pick.png" width="32" height="32"> Zona Verde</label>
-	     			<br>
-	     			<input type="checkbox" id="miso" name="miso">
-	     			<label for="scales"><img src="images/digi/pick.png" width="32" height="32"> Aldeia Miso</label>
-	     			<br>
-     			</div>
-
-     			<br>
-
-     			<div class="check-title" style="text-align:justify">Montanha Infinita <a href="https://dmowiki.com/Infinite_Mountain" target="_blank" style="font-size:18px">(Link na Wiki)</a>
-				</div>
-				<div class="checks" style="text-align:justify">
-					<input type="checkbox" id="idg" name="idg">
-	     			<label for="scales"><img src="images/digi/elec.png" width="32" height="32"> IDG (Devimon Normal)</label>
-	     			<br>
-					<input type="checkbox" id="idgh" name="idgh">
-	     			<label for="scales"><img src="images/digi/elec.png" width="32" height="32"> IDGH(Devimon Difícil)</label>
-     			</div>
-
-     			<br>
-
-     			<div class="check-title" style="text-align:justify">Terminal Versandi <a href="https://dmowiki.com/Versandi_Terminal" target="_blank" style="font-size:18px">(Link na Wiki)</a>
-				</div>
-				<div class="checks" style="text-align:justify">
-					<input type="checkbox" id="RB" name="RB">
-	     			<label for="scales"><img src="images/digi/dukex.png" width="32" height="32"> Base Real </label>
-     			</div>
-
-     			<br>
-
-     			<div class="check-title" style="text-align:justify">Telhado da TV Fuji<a href="https://dmowiki.com/Fuji_TV_Rooftop" target="_blank" style="font-size:18px">(Link na Wiki)</a>
-				</div>
-				<div class="checks" style="text-align:justify">
-					<input type="checkbox" id="fuji" name="fuji">
-	     			<label for="scales"><img src="images/digi/angewo.png" width="32" height="32"> TV Fuji (Miyotismon) </label>
-     			</div>
-
-			</div>
-
-
-			<!-- OUTROS -->
-			<div id="outros" class="tabcontent">
-				<h3>Outras coisas Diárias</h3>
-
-				<div class="check-title" style="text-align:justify">Central do Dats <a href="https://dmowiki.com/DATS_Center" target="_blank" style="font-size:18px">(Link na Wiki)</a>
-				</div>
-				<div class="checks" style="text-align:justify">
-					<input type="checkbox" id="colo" name="colo">
-	     			<label for="scales"><img src="images/digi/kingete.png" width="32" height="32"> Fazer Coliseu</label>
-	     			<br>
-	     			<input type="checkbox" id="gankoo" name="gankoo">
-	     			<label for="scales"><img src="images/digi/gankoo.png" width="32" height="32"> 2 passes do Gankoomon</label>
-	     			<br>
-     			</div>
-
-     			<br>
-
-				<div class="check-title" style="text-align:justify">D-Terminal <a href="https://dmowiki.com/D-Terminal" target="_blank" style="font-size:18px">(Link na Wiki)</a>
-				</div>
-				<div class="checks" style="text-align:justify">
-					<input type="checkbox" id="shadow" name="shadow">
-	     			<label for="scales"><img src="images/digi/cerberu.png" width="32" height="32"> Labirinto das Sombras</label>
-	     			<br>
-     			</div>
-
-     			<br>
-
-     			<div class="check-title" style="text-align:justify">Omegamon X <a href="https://dmowiki.com/Guide:Omegamon_X" target="_blank" style="font-size:18px">(Link na Wiki)</a>
-				</div>
-				<div class="checks" style="text-align:justify">
-					<input type="checkbox" id="ox1" name="ox1">
-	     			<label for="scales"><img src="images/ox1.png" width="32" height="32"> Anti-Heterogênica</label>
-	     			<br>
-	     			<input type="checkbox" id="ox2" name="ox2">
-	     			<label for="scales"><img src="images/ox2.png" width="32" height="32"> Disco de Evolução X</label>
-	     			<br>
-	     			<input type="checkbox" id="ox3" name="ox3">
-	     			<label for="scales"><img src="images/ox3.png" width="32" height="32"> Disco da Morte X</label>
-	     			<br>
-     			</div>
-
-			</div>
-
-
-			<!-- EVENTO -->
-			<div id="evento" class="tabcontent">
-				<h3>Evento</h3>
-
-
-				<div class="checks" style="text-align:justify">
-					<a style="font-size:20px">Data de Encerramento: 23 de Fevereiro de 2023<br></a>
-					<input type="checkbox" id="100d" name="100d">
-	     			<label for="scales"><img src="images/egg100.png" width="32" height="32"> Digimon de 100 Dias</label>
-	     			<br>
-     			</div>
-     			<div class="checks" style="text-align:justify">
-     				<a style="font-size:20px">Data de Encerramento: 28 de Dezembro de 2022<br></a>
-					<input type="checkbox" id="gratidao" name="gratidao">
-	     			<label for="scales"><img src="images/box_yellow.png" width="32" height="32"> Evento de Gratidão</label>
-	     			<br>
-     			</div>
-     			<div class="checks" style="text-align:justify">
-     				<a style="font-size:20px">Data de Encerramento: 28 de Dezembro de 2022<br></a>
-					<input type="checkbox" id="peng1" name="peng1">
-	     			<label for="scales"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/350/penguin_1f427.png" width="32" height="32"> Pinguim do Dats</label>
-	     			<br>
-     			</div>
-     			<div class="checks" style="text-align:justify">
-					<input type="checkbox" id="peng2" name="peng2">
-	     			<label for="scales"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/350/penguin_1f427.png" width="32" height="32"> Pinguim de Vila do Começo</label>
-	     			<br>
-     			</div>
-     			<div class="checks" style="text-align:justify">
-					<input type="checkbox" id="peng3" name="peng3">
-	     			<label for="scales"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/350/penguin_1f427.png" width="32" height="32"> Pinguim da Vila de Neve</label>
-	     			<br>
-     			</div>
-     			<div class="checks" style="text-align:justify">
-					<input type="checkbox" id="santa" name="Santa">
-	     			<label for="scales"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/350/santa-claus_1f385.png" width="32" height="32"> Sala do Papai Noel</label>
-	     			<br>
-     			</div>
-
-			</div>
-
-			<button onclick="clearAndRedirect('https://qualquerrafa.github.io/lista-dmo/')">Limpar Seleções</button>
-			<br>
-
-		</center></div>
-
+	<div class="header">
+		<center><h1> DMO - Checklist Diária </h1></center>
 	</div>
+	<div class="descritivo" style="text-align:center">
+		<p>Uma lista de coisas que todo jogador pode fazer diariamente para aproveitar ao máximo o potencial da sua conta.
+	</div>
+
+	<br>
+	<hr>
+	<br>
+
+	<div class="centro"> <center>
+
+		<div class="tab">
+			<button class="tablinks" onclick="openTab(event, 'diarias')" id="defaultOpen">Missões Diárias</button>
+			<button class="tablinks" onclick="openTab(event, 'dg')">Entradas de DG</button>
+			<button class="tablinks" onclick="openTab(event, 'outros')">Outros</button>
+			<button class="tablinks" onclick="openTab(event, 'evento')">Evento</button>
+		</div>
+
+		<!-- MISSÕES DIARIAS -->
+		<div id="diarias" class="tabcontent">
+			<h3>Missões Diárias</h3>
+
+			<div class="check-title" style="text-align:justify">Lago Silver <a href="https://dmowiki.com/Silver_Lake" target="_blank" style="font-size:18px">(Link na Wiki)</a>
+			</div>
+			<div class="checks" style="text-align:justify">
+				<input type="checkbox" id="aura1" name="aura1" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/pata.png" width="32" height="32"> Digiaura (1 Dia)</label>
+     			<br>
+				<input type="checkbox" id="aura2" name="aura2" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/gabu.png" width="32" height="32"> Digiaura (1 Dia)</label>
+     			<br>
+				<input type="checkbox" id="kuwaga" name="kuwaga" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/cherry.png" width="32" height="32"> DigiOvo de Mercenário Alpha</label>
+ 			</div>
+
+ 			<br>
+
+ 			<div class="check-title" style="text-align:justify">Ilha Arquivo a Beira-mar <a href="https://dmowiki.com/File_Island_Waterfront" target="_blank" style="font-size:18px">(Link na Wiki)</a>
+			</div>
+			<div class="checks" style="text-align:justify">
+				<input type="checkbox" id="monotrio" name="monotrio" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/mono.png" width="32" height="32"> Mono-Trio (100 M)</label>
+ 			</div>
+
+ 			<br>
+
+ 			<div class="check-title" style="text-align:justify">Deserto do Continente <a href="https://dmowiki.com/Server_Continent_Desert" target="_blank" style="font-size:16px">(Link na Wiki)</a>
+			</div>
+			<div class="checks" style="text-align:justify">
+				<input type="checkbox" id="moeda1" name="moeda1" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/ete.png" width="32" height="32"> Moeda do Deserto x1</label>
+     			<br>
+				<input type="checkbox" id="moeda2" name="moeda2" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/ete.png" width="32" height="32"> Moeda do Deserto x1</label>
+     			<br>
+     			<input type="checkbox" id="moeda3" name="moeda3" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/skull.png" width="32" height="32"> Moeda do Deserto x1</label>
+     			<br>
+     		</div>
+
+     		<br>
+
+     		<div class="check-title" style="text-align:justify">Labirinto Digimon <a href="https://dmowiki.com/Digimon_Maze_Entrance" target="_blank" style="font-size:18px">(Link na Wiki)</a>
+			</div>
+			<div class="checks" style="text-align:justify">
+				<input type="checkbox" id="pedra" name="pedra" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/star.png" width="32" height="32"> Pedra da Invocação</label>
+     			<br>
+				<input type="checkbox" id="chave" name="chave" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/anubi.png" width="32" height="32"> Entrada do Labirinto</label>
+     			<br>
+     		</div>
+
+		</div>
+
+		<!-- ENTRADAS DE DG -->
+		<div id="dg" class="tabcontent">
+			<h3>Entradas de DG</h3>
+
+			<div class="check-title" style="text-align:justify">D-Terminal <a href="https://dmowiki.com/D-Terminal" target="_blank" style="font-size:18px">(Link na Wiki)</a>
+			</div>
+			<div class="checks" style="text-align:justify">
+				<input type="checkbox" id="xuwan" name="Xuwan" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/rena.png" width="32" height="32"> EDG(Ebonwumon)</label>
+     			<br>
+				<input type="checkbox" id="zuqia" name="Zuqia" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/rena.png" width="32" height="32"> ZDG(Zuqhiaomon)</label>
+     			<br>
+     			<input type="checkbox" id="baihu" name="Baihu" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/rena.png" width="32" height="32"> BDG(Baihumon)</label>
+     			<br>
+     			<input type="checkbox" id="qing" name="Qing" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/rena.png" width="32" height="32"> QGD(Qinglongmon)</label>
+     			<br>
+     			<input type="checkbox" id="fang" name="Fang" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/rena.png" width="32" height="32"> FDQ(Fanglongmon)</label>
+     			<br>
+     			<input type="checkbox" id="green" name="green" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/pick.png" width="32" height="32"> Zona Verde</label>
+     			<br>
+     			<input type="checkbox" id="miso" name="miso" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/pick.png" width="32" height="32"> Aldeia Miso</label>
+     			<br>
+ 			</div>
+
+ 			<br>
+
+ 			<div class="check-title" style="text-align:justify">Montanha Infinita <a href="https://dmowiki.com/Infinite_Mountain" target="_blank" style="font-size:18px">(Link na Wiki)</a>
+			</div>
+			<div class="checks" style="text-align:justify">
+				<input type="checkbox" id="idg" name="idg" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/elec.png" width="32" height="32"> IDG (Devimon Normal)</label>
+     			<br>
+				<input type="checkbox" id="idgh" name="idgh" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/elec.png" width="32" height="32"> IDGH(Devimon Difícil)</label>
+ 			</div>
+
+ 			<br>
+
+ 			<div class="check-title" style="text-align:justify">Terminal Versandi <a href="https://dmowiki.com/Versandi_Terminal" target="_blank" style="font-size:18px">(Link na Wiki)</a>
+			</div>
+			<div class="checks" style="text-align:justify">
+				<input type="checkbox" id="RB" name="RB" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/dukex.png" width="32" height="32"> Base Real </label>
+ 			</div>
+
+ 			<br>
+
+ 			<div class="check-title" style="text-align:justify">Telhado da TV Fuji<a href="https://dmowiki.com/Fuji_TV_Rooftop" target="_blank" style="font-size:18px">(Link na Wiki)</a>
+			</div>
+			<div class="checks" style="text-align:justify">
+				<input type="checkbox" id="fuji" name="fuji" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/angewo.png" width="32" height="32"> TV Fuji (Miyotismon) </label>
+ 			</div>
+
+		</div>
+
+
+		<!-- OUTROS -->
+		<div id="outros" class="tabcontent">
+			<h3>Outras coisas Diárias</h3>
+
+			<div class="check-title" style="text-align:justify">Central do Dats <a href="https://dmowiki.com/DATS_Center" target="_blank" style="font-size:18px">(Link na Wiki)</a>
+			</div>
+			<div class="checks" style="text-align:justify">
+				<input type="checkbox" id="colo" name="colo" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/kingete.png" width="32" height="32"> Fazer Coliseu</label>
+     			<br>
+     			<input type="checkbox" id="gankoo" name="gankoo" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/gankoo.png" width="32" height="32"> 2 passes do Gankoomon</label>
+     			<br>
+ 			</div>
+
+ 			<br>
+
+			<div class="check-title" style="text-align:justify">D-Terminal <a href="https://dmowiki.com/D-Terminal" target="_blank" style="font-size:18px">(Link na Wiki)</a>
+			</div>
+			<div class="checks" style="text-align:justify">
+				<input type="checkbox" id="shadow" name="shadow" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/digi/cerberu.png" width="32" height="32"> Labirinto das Sombras</label>
+     			<br>
+ 			</div>
+
+ 			<br>
+
+ 			<div class="check-title" style="text-align:justify">Omegamon X <a href="https://dmowiki.com/Guide:Omegamon_X" target="_blank" style="font-size:18px">(Link na Wiki)</a>
+			</div>
+			<div class="checks" style="text-align:justify">
+				<input type="checkbox" id="ox1" name="ox1" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/ox1.png" width="32" height="32"> Anti-Heterogênica</label>
+     			<br>
+     			<input type="checkbox" id="ox2" name="ox2" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/ox2.png" width="32" height="32"> Disco de Evolução X</label>
+     			<br>
+     			<input type="checkbox" id="ox3" name="ox3" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/ox3.png" width="32" height="32"> Disco da Morte X</label>
+     			<br>
+ 			</div>
+
+		</div>
+
+
+		<!-- EVENTO -->
+		<div id="evento" class="tabcontent">
+			<h3>Evento</h3>
+
+
+			<div class="checks" style="text-align:justify">
+				<a style="font-size:20px">Data de Encerramento: 23 de Fevereiro de 2023<br></a>
+				<input type="checkbox" id="100d" name="100d" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/egg100.png" width="32" height="32"> Digimon de 100 Dias</label>
+     			<br>
+ 			</div>
+ 			<div class="checks" style="text-align:justify">
+ 				<a style="font-size:20px">Data de Encerramento: 28 de Dezembro de 2022<br></a>
+				<input type="checkbox" id="gratidao" name="gratidao" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="images/box_yellow.png" width="32" height="32"> Evento de Gratidão</label>
+     			<br>
+ 			</div>
+ 			<div class="checks" style="text-align:justify">
+ 				<a style="font-size:20px">Data de Encerramento: 28 de Dezembro de 2022<br></a>
+				<input type="checkbox" id="peng1" name="peng1" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/350/penguin_1f427.png" width="32" height="32"> Pinguim do Dats</label>
+     			<br>
+ 			</div>
+ 			<div class="checks" style="text-align:justify">
+				<input type="checkbox" id="peng2" name="peng2" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/350/penguin_1f427.png" width="32" height="32"> Pinguim de Vila do Começo</label>
+     			<br>
+ 			</div>
+ 			<div class="checks" style="text-align:justify">
+				<input type="checkbox" id="peng3" name="peng3" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/350/penguin_1f427.png" width="32" height="32"> Pinguim da Vila de Neve</label>
+     			<br>
+ 			</div>
+ 			<div class="checks" style="text-align:justify">
+				<input type="checkbox" id="santa" name="Santa" class="save-cb-state" value="yes">
+     			<label for="scales"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/350/santa-claus_1f385.png" width="32" height="32"> Sala do Papai Noel</label>
+     			<br>
+ 			</div>
+
+		</div>
+
+		<button onclick="clearAndRedirect('https://qualquerrafa.github.io/lista-dmo/')">Limpar Seleções</button>
+		<br>
+
+	</center></div>
 
 	<br>
 	<hr>
@@ -249,8 +246,8 @@
 
 	<div class="footer">
 		<center>
-			Criado por <a style="color:#11e81b0" href="https://twitter.com/QualquerRafa">@QualquerRafa</a> com sugestões da comunidade.
-			<br> Sugestões podem ser feitas me marcando no <a style="color:#11e81b0" href="https://discord.gg/dmo"> Discord oficial do DMO.</a>
+			Criado por <a style="color:#11e81b0" href="https://twitter.com/QualquerRafa" target="_blank">@QualquerRafa</a> com sugestões da comunidade.
+			<br> Sugestões podem ser feitas me marcando no <a style="color:#11e81b0" href="https://discord.gg/dmo" target="_blank"> Discord oficial do DMO.</a>
 		</center>
 	</div>
 
@@ -258,7 +255,7 @@
 
 	<div class="changelog" style="margin-left:12px">
 		<justify>
-			<a style="color:#dc6601"> 25/12/2022</a> -  Versão 0.1.200: Padronização das Missões; Adição de mais Passes de DG; Adicionada Sala do Papai Noel; implementação de Cookies para manter as Marcações até o dia seguinte.
+			<a style="color:#dc6601"> 25/12/2022</a> -  Versão 0.1.200: Padronização das Missões; Adição de mais Passes de DG; Adicionada Sala do Papai Noel; implementação de Cookies para manter as Marcações ao fechar a página.
 			<br>
 			<a style="color:#dc6601"> 24/12/2022</a> -  Versão 0.1.110: Adicionado botão para limpar seleções; Correção de texto; Correção de imagens.
 			<br>
@@ -269,6 +266,60 @@
 	</div>
 
 	<script src="index.js"></script>
+
+	<!-- persistent checkbox GAMBIARRAS -->
+
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<!-- This JavaScript file is required to load the XpressDox interview as well as the code required to run it -->
+	 
+	<script>
+	// Avoid scoping issues by encapsulating code inside anonymous function
+	(function() {
+	  // variable to store our current state
+	  var cbstate;
+	  
+	  // bind to the onload event
+	  window.addEventListener('load', function() {
+	    // Get the current state from localstorage
+	    // State is stored as a JSON string
+	    cbstate = JSON.parse(localStorage['CBState'] || '{}');
+	  
+	    // Loop through state array and restore checked 
+	    // state for matching elements
+	    for(var i in cbstate) {
+	      var el = document.querySelector('input[name="' + i + '"]');
+	      if (el) el.checked = true;
+	    }
+	  
+	    // Get all checkboxes that you want to monitor state for
+	    var cb = document.getElementsByClassName('save-cb-state');
+	  
+	    // Loop through results and ...
+	    for(var i = 0; i < cb.length; i++) {
+	  
+	      //bind click event handler
+	      cb[i].addEventListener('click', function(evt) {
+	        // If checkboxe is checked then save to state
+	        if (this.checked) {
+	          cbstate[this.name] = true;
+	        }
+	    
+	    // Else remove from state
+	        else if (cbstate[this.name]) {
+	          delete cbstate[this.name];
+	        }
+	    
+	    // Persist state
+	        localStorage.CBState = JSON.stringify(cbstate);
+	      });
+	    }
+	  });
+	})();
+	</script>
+
+	<!-- end of GAMBIARRAS -->
+
+
 </body>
 
 </html>
